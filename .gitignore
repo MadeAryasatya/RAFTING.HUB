@@ -1,0 +1,14 @@
+# Raw/original media (too large for GitHub; site uses optimized copies in assets/gallery & assets/video)
+bali-desa-rafting/assets/VIDIO/
+bali-desa-rafting/assets/FOOD ASSET/
+bali-desa-rafting/assets/SAFETY GEARS PICTURE/
+bali-desa-rafting/assets/picture asset/
+bali-desa-rafting/assets/logo 1.png
+
+# Build/deploy artifacts (regenerated from source)
+deploy-bali-desa-rafting/
+bali-desa-rafting-site.zip
+
+# Local tooling
+.claude/settings.local.json
+*.zip
