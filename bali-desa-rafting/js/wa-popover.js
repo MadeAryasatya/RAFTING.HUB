@@ -10,8 +10,23 @@
       activeTrigger = null;
     }
 
+    function applyMessageTemplate(trigger) {
+      const msgKey = trigger.getAttribute("data-wa-message");
+      popover.querySelectorAll(".wa-popover-option").forEach((opt) => {
+        if (!opt.dataset.baseHref) opt.dataset.baseHref = opt.getAttribute("href");
+        let href = opt.dataset.baseHref;
+        if (msgKey && typeof I18N !== "undefined" && window.BDR_I18N) {
+          const dict = I18N[window.BDR_I18N.getLang()] || I18N.en;
+          const msg = dict["common.wa.msg." + msgKey];
+          if (msg) href += "?text=" + encodeURIComponent(msg);
+        }
+        opt.setAttribute("href", href);
+      });
+    }
+
     function openPopoverNear(trigger) {
       activeTrigger = trigger;
+      applyMessageTemplate(trigger);
       popover.classList.add("open");
 
       const rect = trigger.getBoundingClientRect();
