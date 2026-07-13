@@ -12,3 +12,4 @@ bali-desa-rafting-site.zip
 # Local tooling
 .claude/settings.local.json
 *.zip
+.netlify/
