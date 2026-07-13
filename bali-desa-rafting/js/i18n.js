@@ -18,7 +18,7 @@ const I18N = {
     "common.nav.openMenu": "Open menu",
     "common.cta.chatWhatsapp": "Chat via WhatsApp",
     "common.wa.choose": "Choose a number to chat",
-    "common.wa.msg.pricing": "Hi! Could you please share your latest rafting package prices? Thank you! 😊",
+    "common.wa.msg.pricing": "Hi! Could you please share your latest rafting package prices? Thank you!",
     "common.footer.tagline": "An Ayung River rafting operator born from, and for, Bongkasa Village. Part of the @balidesaswing family.",
     "common.footer.explore": "Explore",
     "common.footer.exploreHome": "Home",
@@ -28,6 +28,7 @@ const I18N = {
     "common.footer.contact": "Contact",
     "common.footer.followUs": "Follow Us",
     "common.footer.instagram": "Instagram",
+    "common.footer.tiktok": "TikTok",
     "common.footer.copyright": "© 2026 Bali Desa Rafting. All rights reserved.",
     "common.footer.madeIn": "Proudly made in Bongkasa Village, Bali.",
 
@@ -42,7 +43,7 @@ const I18N = {
 
     "home.press.badge": "Featured in the News",
     "home.press.eyebrow": "A Proud Day on the River",
-    "home.press.title": "Even a U.S. President Couldn't Resist the Ayung.",
+    "home.press.title": "Even The U.S. President Couldn't Resist the Ayung.",
     "home.press.body": "In June 2017, former U.S. President Barack Obama and his family joined us for a rafting trip down the Ayung River during their holiday in Bali. Five of our senior guides led them through the rapids from Bongkasa Pertiwi all the way to the Four Seasons Resort at Sayan — still one of our proudest days on the water.",
     "home.press.link1": "Read on Detik.com →",
     "home.press.link2": "Read on BBC News Indonesia →",
@@ -226,6 +227,7 @@ const I18N = {
     "common.footer.contact": "Kontak",
     "common.footer.followUs": "Ikuti Kami",
     "common.footer.instagram": "Instagram",
+    "common.footer.tiktok": "TikTok",
     "common.footer.copyright": "© 2026 Bali Desa Rafting. Seluruh hak cipta dilindungi.",
     "common.footer.madeIn": "Dibuat dengan bangga di Desa Bongkasa, Bali.",
 
